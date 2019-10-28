@@ -1,0 +1,110 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.navigation_bar {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 7.5%;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    z-index: 2;
+    padding: 0%;
+    margin: 0%;
+    background: #ffffff;
+}
+
+.campaign_logo {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Staatliches', cursive;
+    font-size: calc(10px + 1.25vw);
+    color: #00008c;
+    cursor: pointer;
+}
+
+.campaign_logo_emphasis {
+    font-family: 'Staatliches', cursive;
+    font-size: calc(10px + 1.25vw);
+    color: #ff0000;
+    margin-left: 2.5%;
+}
+
+.navigator_button {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    font-size: calc(10px + 1.25vw);
+    color: #00008c;
+    margin-right: 2.5%;
+    background-color: transparent;
+    outline: none;
+    height: auto;
+    padding: 0%;
+    height: 100%;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.navigator_button:active {
+    color: #ff0000;
+    outline: none;
+    border: none;
+}
+
+.navigator_button_spacer {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    font-size: calc(10px + 1.25vw);
+    color: #00008c;
+    margin-right: 2.5%;
+    background-color: transparent;
+    outline: none;
+    height: auto;
+    padding: 0%;
+    height: 100%;
+    float: right;
+    border: none;
+}
+
+.backdrop {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    z-index: -1;
+}
+
+.foreground_image {
+    position: absolute;
+    height: 75%;
+    width: auto;
+    bottom: 0%;
+    right: 0%;
+}
+
+.campaign_slogan {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Staatliches', cursive;
+    font-size: calc(50px + 1.25vw);
+    max-width: 25%;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
